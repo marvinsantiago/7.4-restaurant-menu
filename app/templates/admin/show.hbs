@@ -1,0 +1,12 @@
+<h2>{{model.title}} <span>{{model.author}}</span></h2>
+
+<p>{{model.body}}</p>
+
+<div class="actions">
+  {{#link-to 'admin.update' model}}
+    edit
+  {{/link-to}}
+  <a href="#" {{action 'delete' model}}>
+    delete
+  </a>
+</div>

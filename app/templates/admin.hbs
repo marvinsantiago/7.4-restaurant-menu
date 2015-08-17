@@ -1,0 +1,15 @@
+<ul>
+  <li>{{#link-to 'admin.create'}}+ New{{/link-to}}</li>
+  {{#each model as |item|}}
+    {{#unless item.isNew}}
+      <li>
+        {{#link-to 'admin.show' item}}
+          {{admin.title}}
+        {{/link-to}}
+      </li>
+      {{/unless}}
+  {{/each}}
+</ul>
+
+
+{{outlet}}
