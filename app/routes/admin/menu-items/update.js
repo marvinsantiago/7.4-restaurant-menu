@@ -1,11 +1,13 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
+  model: function() {
+    return this.store.createRecord('item');
+  },
+
   actions: {
-    save: function(data) {
-      var item = this.modelFor('item.update');
-      item.setProperties(data);
-      item.save().then(() => {this.transitionTo('admin.menu-item');});
+    save: function(item) {
+      item.save().then(() => {this.transitionTo('admin.menu-items');});
 
     }
   }
