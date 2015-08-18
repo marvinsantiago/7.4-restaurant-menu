@@ -2,13 +2,13 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   model: function(params) {
-    return this.store.findById('menu-item', params.id);
+    return this.store.findById('item', params.id);
   },
   actions: {
     delete: function(item) {
       item.destroyRecord();
 
-      this.transitionTo('menu.index');
+      this.transitionTo('admin.menu-items.index');
     }
   }
 });

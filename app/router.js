@@ -8,9 +8,9 @@ var Router = Ember.Router.extend({
 Router.map(function() {
   this.route('admin', function() {
     this.route('menu-items', {path: '/'}, function() {
-      this.route('create', {path: 'new'});
-      this.route('show', {path: ':menu_item_id'});
-      this.route('update', {path: ':menu_item_id/edit'});
+      this.route('create', {path: '/new'});
+      this.route('show', {path: '/:menu-items_id'});
+      this.route('update', {path: '/:menu-items_id/edit'});
     });
   });
 });

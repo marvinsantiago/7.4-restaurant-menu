@@ -1,10 +1,8 @@
-import DS from 'ember-data';
+import Ember from 'ember';
+import FirebaseAdapter from 'emberfire/adapters/firebase';
 
-export default DS.RESTAdapter.extend({
-  namespace: 'collections',
-  host: 'http://tiny-lr.herokuapp.com',
+const { inject } = Ember;
 
-  pathForType: function(modelName) {
-    return `ms-${modelName}`;
-  },
+export default FirebaseAdapter.extend({
+  firebase: inject.service(),
 });

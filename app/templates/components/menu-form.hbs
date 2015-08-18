@@ -1,8 +1,15 @@
-<form {{action 'save' on='submit'}}>
-  {{input type='text' placeholder="Name" value=name}}
-  {{input type='text' placeholder="Category"value=category}}
-  {{input type='text' placeholder="Price" value=price}}
-  {{textarea type='text' placeholder="Description" value=description}}
+<form {{action 'save' model on='submit'}}>
+<label for="menu-name">Title</label>
+  {{input type='text' value=name}}
+
+<label for="menu-category">Category</label>
+  {{input type='text' value=category}}
+
+<label for="menu-price">Price</label>
+  {{input type='text' value=price}}
+
+<label for="menu-description">Description</label>
+  {{textarea type='text' value=description}}
 
   <input type='submit' value='Save'>
 </form>
