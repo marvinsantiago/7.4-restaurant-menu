@@ -8,7 +8,7 @@ export default Ember.Route.extend({
     delete: function(item) {
       item.destroyRecord();
 
-      this.transitionTo('item.index');
+      this.transitionTo('menu.index');
     }
   }
 });

@@ -7,10 +7,10 @@ export default Ember.Route.extend({
 
   actions: {
     save: function(data) {
-      var menu = this.modelFor('menu-item.create');
+      var menu = this.modelFor('menu.create');
       menu.setProperties(data);
       menu.save().then(() => {
-        this.transitionTo('menu-item.index');
+        this.transitionTo('menu.index');
       });
     }
   }

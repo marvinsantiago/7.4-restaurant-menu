@@ -1,9 +1,9 @@
 <ul>
-  <li>{{#link-to 'menu.create'}}New Item{{/link-to}}</li>
+  <li>{{#link-to 'admin.menu-items.create'}}New Item{{/link-to}}</li>
   {{#each model as |item|}}
     {{#unless item.isNew}}
       <li>
-        {{#link-to 'menu-item.show' item}}
+        {{#link-to 'admin.menu-items.show' item}}
           {{item.title}}
         {{/link-to}}
       </li>
@@ -12,4 +12,4 @@
 </ul>
 
 
-{{!-- {{outlet}} --}}
+{{outlet}}
