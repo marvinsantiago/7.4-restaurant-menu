@@ -1,9 +1,9 @@
 <ul>
-  <li>{{#link-to 'admin.create'}}New Item{{/link-to}}</li>
+  <li>{{#link-to 'menu-item.create'}}New Item{{/link-to}}</li>
   {{#each model as |item|}}
     {{#unless item.isNew}}
       <li>
-        {{#link-to 'admin.show' item}}
+        {{#link-to 'menu-item.show' item}}
           {{item.title}}
         {{/link-to}}
       </li>

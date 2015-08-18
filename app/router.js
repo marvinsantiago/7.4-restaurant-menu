@@ -6,7 +6,7 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('admin', {path:'admin'}, function() {
+  this.route('menu', {path:'menu'}, function() {
     this.route('create', {path: 'new'});
     this.route('show', {path: ':id'});
     this.route('update', {path: ':admin_id/edit'});
