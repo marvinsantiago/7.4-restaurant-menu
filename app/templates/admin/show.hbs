@@ -1,12 +1,12 @@
-<h2>{{model.title}} <span>{{model.author}}</span></h2>
+<h2>{{model.name}} <span>{{model.price}}</span></h2>
 
-<p>{{model.body}}</p>
+<p>{{model.description}}</p>
 
 <div class="actions">
   {{#link-to 'admin.update' model}}
-    edit
+    Edit
   {{/link-to}}
   <a href="#" {{action 'delete' model}}>
-    delete
+    Delete
   </a>
 </div>
