@@ -14,6 +14,7 @@
     "qunit": "~1.18.0",
     "bourbon": "4.2.3",
     "neat": "~1.7.2",
-    "reset-scss": "*"
+    "reset-scss": "*",
+    "lodash": "^2.4.0"
   }
 }
