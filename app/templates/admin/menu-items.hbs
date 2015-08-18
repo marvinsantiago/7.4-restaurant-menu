@@ -1,13 +1,11 @@
 <ul>
   <li>{{#link-to 'admin.menu-items.create'}}New Item{{/link-to}}</li>
   {{#each model as |item|}}
-    {{#unless item.isNew}}
       <li>
-        {{#link-to 'admin.menu-items.show' item}}
-          {{item.title}}
+        {{#link-to 'admin.menu-items.show'}}
+          {{item.name}}
         {{/link-to}}
       </li>
-      {{/unless}}
   {{/each}}
 </ul>
 
