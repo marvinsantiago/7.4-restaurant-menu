@@ -8,7 +8,7 @@ export default Ember.Route.extend({
   actions: {
     save: function(item) {
       item.save().then(() => {
-        this.transitionTo('admin.menu-items.index');
+        this.transitionTo('admin.menu-items');
       });
     }
   }

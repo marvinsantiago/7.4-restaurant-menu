@@ -9,10 +9,10 @@ Router.map(function() {
   this.route('admin', function() {
     this.route('menu-items', {path: '/'}, function() {
       this.route('create', {path: '/new'});
-      this.route('show', {path: '/:menu-items_id'});
+      this.route('show', {path: ':menu-items_id'});
       this.route('update', {path: '/:menu-items_id/edit'});
+      });
     });
   });
-});
 
 export default Router;
