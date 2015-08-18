@@ -9,7 +9,7 @@ Router.map(function() {
   this.route('menu', {path:'menu'}, function() {
     this.route('create', {path: 'new'});
     this.route('show', {path: ':id'});
-    this.route('update', {path: ':admin_id/edit'});
+    this.route('update', {path: ':menu_id/edit'});
   });
 });
 
