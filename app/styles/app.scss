@@ -1,3 +1,42 @@
 @import "reset";
 @import "bourbon";
 @import "neat";
+
+$red: #ff0000;
+$gray: #898585;
+$font: Verdana, Arial, Helvetica, sans-serif;
+
+body {
+    background: $gray;
+    font-family: $font;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    background: $red;
+    height: 50px;
+    li {
+        text-align: right;
+        padding: 15px 10px 0;
+        a:hover {
+            background: blue;
+        }
+    }
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+.menu-newitems {
+    padding: 10px 0;
+    a:hover {
+        text-decoration: underline;
+    }
+}
+.singleitem {
+    text-align: center;
+    padding: 20px 0;
+}

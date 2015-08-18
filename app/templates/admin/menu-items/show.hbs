@@ -1,6 +1,9 @@
-<h2>{{model.name}} <span>{{model.price}}</span></h2>
+<div class="singleitem">
+    <h2>{{model.name}}</h2>
+    <h2>{{model.price}}</h2>
 
-<p>{{model.description}}</p>
+    <p>{{model.description}}</p>
+
 
 <div class="actions">
   {{#link-to 'admin.menu-items.update' model}}
@@ -9,4 +12,5 @@
   <a href="#" {{action 'delete' model}}>
     Delete
   </a>
+</div>
 </div>

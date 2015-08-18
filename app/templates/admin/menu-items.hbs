@@ -1,14 +1,2 @@
-<ul>
-  <li>{{#link-to 'admin.menu-items.create'}}New Item{{/link-to}}</li>
-  {{#each model as |item|}}
-      <li>
-        {{#link-to 'admin.menu-items.show' item}}
-          {{item.name}}
-        {{/link-to}}
-      </li>
-  {{/each}}
-</ul>
-
-
 {{outlet}}
 
