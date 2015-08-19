@@ -7,7 +7,7 @@ $gray: #898585;
 $font: Verdana, Arial, Helvetica, sans-serif;
 
 body {
-    background: $gray;
+    background: lighten($gray, 30%);
     font-family: $font;
 }
 a {
@@ -16,7 +16,10 @@ a {
 }
 a:hover {
         text-decoration: underline;
-    }
+}
+li {
+    line-height: 1.3em;
+}
 
 nav {
     background: $red;
@@ -30,8 +33,13 @@ h1 {
     font-size: 60px;
     text-align: center;
 }
-.newform {
-    text-align: center;
+.newform, .updateform {
+    @include outer-container(900px);
+    padding-top: 30px;
+}
+.newform label, input, textarea {
+    @include span-columns(12);
+    padding: 5px 0;
 }
 .menu-newitems {
     padding: 10px 0;
@@ -50,4 +58,8 @@ h1 {
 }
 .actions {
     padding-top: 10px;
+}
+.updateform label, input, textarea {
+    @include span-columns(12);
+    padding: 5px 0;
 }
