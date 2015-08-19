@@ -6,9 +6,11 @@ export default Ember.Route.extend({
   },
 
   actions: {
-    save: function(item) {
+    save: function(item, data) {
+      item.setProperties(data);
+
       item.save().then(() => {
-        this.transitionTo('admin.menu-items');
+        this.transitionTo('admin.menu-items.index');
       });
     }
   }
