@@ -1,4 +1,4 @@
-<form {{action 'save' on='submit'}}>
+<form class="item-form" {{action 'save' on='submit'}}>
 <label for="menu-name">Title</label>
   {{input type='text' value=name}}
 
@@ -11,5 +11,5 @@
 <label for="menu-description">Description</label>
   {{textarea type='text' value=description}}
 
-  <input type='submit' value='Save'>
+    <button type='submit'>Save</button>
 </form>
