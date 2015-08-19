@@ -41,8 +41,9 @@ h1 {
     @include span-columns(12);
     padding: 5px 0;
 }
-.menu-newitems {
-    padding: 10px 0;
+.menu-newitems li {
+    padding: 5px 0;
+    margin-left: 10px;
 }
 .singleitem {
     text-align: center;
