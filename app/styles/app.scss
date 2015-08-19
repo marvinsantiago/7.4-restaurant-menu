@@ -27,6 +27,11 @@ nav {
     li {
         text-align: right;
         padding: 15px 10px 0;
+        a:hover {
+            background: lighten($gray, 30%);
+            border-radius: 2px;
+            text-decoration: none;
+        }
     }
 }
 h1 {
