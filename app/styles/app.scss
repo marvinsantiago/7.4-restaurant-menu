@@ -14,6 +14,9 @@ a {
     text-decoration: none;
     color: inherit;
 }
+a:hover {
+        text-decoration: underline;
+    }
 
 nav {
     background: $red;
@@ -21,9 +24,6 @@ nav {
     li {
         text-align: right;
         padding: 15px 10px 0;
-        a:hover {
-            background: blue;
-        }
     }
 }
 h1 {
@@ -35,11 +35,19 @@ h1 {
 }
 .menu-newitems {
     padding: 10px 0;
-    a:hover {
-        text-decoration: underline;
-    }
 }
 .singleitem {
     text-align: center;
     padding: 20px 0;
+    .singleitem-name {
+        font-size: 1.2em;
+    }
+    .singleitem-description {
+        font-size: 0.8em;
+        font-style: italic;
+        padding-top: 5px;
+    }
+}
+.actions {
+    padding-top: 10px;
 }
