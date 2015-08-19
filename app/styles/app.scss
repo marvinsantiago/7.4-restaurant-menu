@@ -17,9 +17,6 @@ a {
 a:hover {
         text-decoration: underline;
 }
-li {
-    line-height: 1.3em;
-}
 
 nav {
     background: $red;
@@ -31,6 +28,7 @@ nav {
             background: lighten($gray, 30%);
             border-radius: 2px;
             text-decoration: none;
+            padding: 5px;
         }
     }
 }
