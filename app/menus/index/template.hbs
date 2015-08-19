@@ -1,0 +1,10 @@
+<div class="full-menu">
+    <h3>Full Menu</h3>
+        {{#each model as |item|}}
+        <h2 class="singleitem-name">{{item.name}}
+            <span class="singleitem-price">{{format-money (to-dollars item.price)}}</span>
+        </h2>
+        <p class="singleitem-description">{{item.description}}</p>
+        {{/each}}
+</div>
+

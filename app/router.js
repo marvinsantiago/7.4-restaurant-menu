@@ -14,6 +14,13 @@ Router.map(function() {
       this.route('edit', {path: '/:menu-items_id/edit'});
       });
     });
+  this.route('order', {path: '/order'});
+
+  this.route('menus', {path: '/menus'}, function() {
+    this.route('index', {path: '/fullmenu'});
+    this.route('show');
+  });
+
   });
 
 export default Router;

@@ -21,9 +21,12 @@ a:hover {
 
 nav {
     background: $red;
-    height: 50px;
+    ul {
+        height: 50px;
+        @include outer-container();
+    }
     li {
-        text-align: right;
+        display: inline-block;
         padding: 15px 10px 0;
         a:hover {
             background: lighten($gray, 30%);
