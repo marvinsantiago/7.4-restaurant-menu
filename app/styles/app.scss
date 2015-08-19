@@ -1,6 +1,7 @@
 @import "reset";
 @import "bourbon";
 @import "neat";
+@import 'border-box';
 
 $red: #ff0000;
 $gray: #898585;
@@ -40,9 +41,12 @@ h1 {
     @include outer-container(900px);
     padding-top: 30px;
 }
-.newform label, input, textarea {
+.newform label, input, textarea, {
     @include span-columns(12);
     padding: 5px 0;
+}
+button {
+    @include button;
 }
 .menu-newitems li {
     padding: 5px 0;
