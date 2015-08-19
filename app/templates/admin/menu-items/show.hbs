@@ -1,9 +1,8 @@
 <div class="singleitem">
-    <h2>{{model.name}}</h2>
-    <h2>{{model.price}}</h2>
-
-    <p>{{model.description}}</p>
-
+    <h2 class="singleitem-name">{{model.name}}
+        <span class="singleitem-price">{{format-money (to-dollars model.price)}}</span>
+    </h2>
+    <p class="singleitem-description">{{model.description}}</p>
 
 <div class="actions">
   {{#link-to 'admin.menu-items.update' model}}
