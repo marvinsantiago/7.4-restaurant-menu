@@ -6,10 +6,12 @@
 $red: #ff0000;
 $gray: #898585;
 $font: Verdana, Arial, Helvetica, sans-serif;
+$fontcolor: #ffffff;
 
 body {
-    background: lighten($gray, 30%);
+    background: lighten($gray, 10%);
     font-family: $font;
+    color: $fontcolor;
 }
 a {
     text-decoration: none;
@@ -20,7 +22,7 @@ a:hover {
 }
 
 nav {
-    background: $red;
+
     ul {
         height: 50px;
         @include outer-container();

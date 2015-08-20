@@ -5,7 +5,7 @@ export default Ember.Route.extend({
     save: function(item, data) {
       item.setProperties(data);
 
-      item.save().then(() => {this.transitionTo('admin.menu-items', item);
+      item.save().then(() => {this.transitionTo('admin.menu-items.show', item);
     });
 
     }
