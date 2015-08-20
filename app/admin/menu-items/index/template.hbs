@@ -6,6 +6,7 @@
         {{#link-to 'admin.menu-items.show' item}}
           {{item.name}} -
           {{format-money (to-dollars item.price)}}
+          {{item.category}}
         {{/link-to}}
       </li>
         {{/unless}}

@@ -14,7 +14,7 @@ Router.map(function() {
       this.route('edit', {path: '/:menu-items_id/edit'});
       });
     });
-  this.route('order', {path: '/order'});
+  this.route('categories');
 
   this.route('menus', {path: '/menus'}, function() {
     this.route('index', {path: '/fullmenu'});
