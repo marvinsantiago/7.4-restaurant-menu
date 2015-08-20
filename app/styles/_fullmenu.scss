@@ -1,0 +1,17 @@
+.full-menu {
+    @include span-columns(6);
+    margin-left: 10px;
+    padding: 10px 0;
+    line-height: 30px;
+
+    h3 {
+        font-size: 1.6em;
+    }
+    .full-menu-item-name {
+        font-size: 1.4em;
+    }
+    .full-menu-item-description {
+        font-style: italic;
+        padding-left: 10px;
+    }
+}
