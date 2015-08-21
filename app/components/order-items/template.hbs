@@ -1,0 +1,9 @@
+<div class="order-box">
+    <h3>Shopping Cart</h3>
+    <ul>
+        {{#each orders.ordersSubmitted as |item| }}
+            <li>{{item.name}}</li>
+        {{/each}}
+    </ul>
+
+</div>

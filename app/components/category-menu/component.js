@@ -1,6 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
+  orders: Ember.inject.service('order-build'),
   items: [],
 
   categories: Ember.computed('items', 'items.@each.category', 'items.@each.name', function() {

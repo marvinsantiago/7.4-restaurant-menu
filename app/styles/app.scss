@@ -78,4 +78,13 @@ button {
     @include span-columns(12);
     padding: 5px 0;
 }
+.category {
+    border: 2px solid white;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+.order-box {
+    border: 2px solid white;
+
+}
 

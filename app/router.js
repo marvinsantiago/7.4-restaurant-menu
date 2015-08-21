@@ -15,8 +15,10 @@ Router.map(function() {
     });
   });
 
-  this.route('menus', {path: '/'});
-
+  this.route('menus', {path: '/'}, function() {
+    this.route('show',{path:'/:menus_id'});
   });
+    });
+
 
 export default Router;
