@@ -14,6 +14,8 @@ body {
     background: lighten($gray, 10%);
     font-family: $font;
     color: $fontcolor;
+    @include outer-container(980px);
+    margin: auto;
 }
 a {
     text-decoration: none;
@@ -54,6 +56,7 @@ h1 {
 }
 button {
     @include button;
+
 }
 .menu-newitems li {
     padding: 5px 0;
@@ -79,12 +82,36 @@ button {
     padding: 5px 0;
 }
 .category {
+    @include outer-container();
     border: 2px solid white;
     margin-left: 10px;
     padding-left: 10px;
+    h4 {
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+
 }
 .order-box {
-    border: 2px solid white;
+    @include span-columns(4);
 
+    border: 2px solid $fontcolor;
+    padding: 10px 0;
+    h3 {
+        border-bottom: 2px solid $fontcolor;
+        padding-bottom: 5px;
+    }
+
+    .order-section thead tr th td{
+        padding: 10px;
+        line-height: 5px;
+    }
+    #order-section-menu {
+
+    }
+    #total {
+        border-top: 2px solid $fontcolor;
+        padding: 20px 0;
+    }
 }
 

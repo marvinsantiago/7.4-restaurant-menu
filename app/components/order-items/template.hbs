@@ -1,9 +1,21 @@
 <div class="order-box">
     <h3>Shopping Cart</h3>
-    <ul>
+<table class="order-section">
+    <thead id="order-section-menu">
+    <tr>
+        <th>Item</th>
+        <th>Qty</th>
+        <th>Price</th>
+    </tr>
+    </thead>
         {{#each orders.ordersSubmitted as |item| }}
-            <li>{{item.name}} - <span>{{format-money (to-dollars item.price)}}</span></li>
+    <tr>
+            <td>{{item.name}}</td>
+            <td>{{item.quantity}}</td>
+            <td>{{format-money (to-dollars item.price)}}</td>
+    </tr>
         {{/each}}
-    </ul>
-
+</table>
+    <h4 id="total">Total</h4>
+    <button>Place Order</button>
 </div>
