@@ -2,7 +2,7 @@
     <h3>Shopping Cart</h3>
     <ul>
         {{#each orders.ordersSubmitted as |item| }}
-            <li>{{item.name}}</li>
+            <li>{{item.name}} - <span>{{format-money (to-dollars item.price)}}</span></li>
         {{/each}}
     </ul>
 
