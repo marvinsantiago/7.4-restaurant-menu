@@ -1,10 +1,10 @@
 import Ember from 'ember';
 
 export default Ember.Service.extend({
-    ordersSubmitted: [],
+  ordersSubmitted: [],
 
   addToCart: function(item) {
-    this.ordersSubmitted.addObject(item);
+    this.ordersSubmitted.pushObject(item);
   },
 
 });

@@ -2,7 +2,7 @@
     <div class="category">
         {{category.name}} -
         {{#each category.items as |item|}}
-            <li {{action 'addToCart' on='click' item=model}}>
+            <li {{action 'addToCart' item}}>
             <h2 class="full-menu-item-name">{{item.name}}
                 <span class="full-menu-item-price">{{format-money (to-dollars item.price)}}</span>
             </h2>
