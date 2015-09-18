@@ -14,7 +14,7 @@
     </tr>
         {{/each}}
     <tr>
-        <td>Total: {{orders.price}}</td>
+        <td>Total: {{format-money (to-dollars orders.price)}}</td>
     </tr>
 </table>
 </div>
