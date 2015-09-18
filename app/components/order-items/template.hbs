@@ -4,18 +4,17 @@
     <thead id="order-section-menu">
     <tr>
         <th>Item</th>
-        <th>Qty</th>
         <th>Price</th>
     </tr>
     </thead>
         {{#each orders.ordersSubmitted as |item| }}
     <tr>
-            <td>{{item.name}}</td>
-            <td>{{item.quantity}}</td>
-            <td>{{format-money (to-dollars item.price)}}</td>
+        <td>{{item.name}}</td>
+        <td>{{format-money (to-dollars item.price)}}</td>
     </tr>
         {{/each}}
+    <tr>
+        <td>Total: {{orders.price}}</td>
+    </tr>
 </table>
-    <h4 id="total">Total</h4>
-    <button>Place Order</button>
 </div>

@@ -6,5 +6,7 @@ export default Ember.Service.extend({
   addToCart: function(item) {
     this.ordersSubmitted.pushObject(item);
   },
+  totalOrder: Ember.computed.mapBy('ordersSubmitted', 'price'),
+  price: Ember.computed.sum('totalOrder')
 
 });
