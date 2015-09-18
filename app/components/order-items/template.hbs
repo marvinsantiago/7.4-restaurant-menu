@@ -1,20 +1,11 @@
+
 <div class="order-box">
-    <h3>Shopping Cart</h3>
-<table class="order-section">
-    <thead id="order-section-menu">
-    <tr>
-        <th>Item</th>
-        <th>Price</th>
-    </tr>
-    </thead>
-        {{#each orders.ordersSubmitted as |item| }}
-    <tr>
-        <td>{{item.name}}</td>
-        <td>{{format-money (to-dollars item.price)}}</td>
-    </tr>
-        {{/each}}
-    <tr>
-        <td>Total: {{format-money (to-dollars orders.price)}}</td>
-    </tr>
-</table>
+    <h4>Shopping Cart</h4>
+    <p id="cart-item">Item<span>Price</span></p>
+    {{#each orders.ordersSubmitted as |item|}}
+    <p id="cart-item-name">{{item.name}}<span>{{format-money (to-dollars item.price)}}</span></p>
+    {{/each}}
+    <p id="total">Total:<span>{{format-money (to-dollars orders.price)}}</span></p>
+
 </div>
+

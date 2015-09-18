@@ -269,30 +269,37 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu"
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app"
 	],
 	"file_history":
 	[
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/templates/application.hbs",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/components/menu-item/template.hbs",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/menus/template.hbs",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/menus/route.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/components/order-items/template.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/styles/app.scss",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/styles/_fullmenu.scss",
 		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/components/category-menu/template.hbs",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/categories/template.hbs",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/router.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/services/order-build.js",
 		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/components/category-menu/component.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/components/order-items/component.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/menus/route.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/menus/show/route.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/menus/template.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/components/order-form/template.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/components/order-form/component.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/templates/application.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/menus/show/template.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/router.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/components/menu-item/template.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/categories/template.hbs",
 		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/categories/route.js",
 		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/admin/menu-items/index/template.hbs",
 		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/menus/index/template.hbs",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/styles/app.scss",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/styles/_fullmenu.scss",
 		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/admin/menu-items/show/template.hbs",
 		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/admin/menu-items/create/route.js",
 		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/admin/menu-items/show/route.js",
 		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/models/item.js",
 		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/admin/menu-items/edit/route.js",
 		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/menus/index/route.js",
-		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/menus/show/template.hbs",
 		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/admin/menu-item/index/template.hbs",
 		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/admin/menu-item/edit/template.hbs",
 		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/admin/menu-item/edit/route.js",
@@ -394,13 +401,7 @@
 		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/view/tag.js",
 		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/view/form.js",
 		"/Users/marvinsantiago/IronYard/week-7/lesson-4/.git/COMMIT_EDITMSG",
-		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/collection/bm-collection.js",
-		"/Users/marvinsantiago/IronYard/Notes/081215.md",
-		"/Users/marvinsantiago/IronYard/Notes.md",
-		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/model/bm-model.js",
-		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/templates/app.hbs",
-		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/view/blogview.js",
-		"/Users/marvinsantiago/IronYard/week-7/lesson-2/api/models/User.js"
+		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/collection/bm-collection.js"
 	],
 	"find":
 	{
@@ -667,7 +668,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 165.0,
+	"side_bar_width": 203.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
