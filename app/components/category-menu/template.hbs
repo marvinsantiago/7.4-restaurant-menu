@@ -1,0 +1,18 @@
+{{#each categories as |category|}}
+    <div class="category">
+        <h4>{{category.name}}</h4>
+        <ul>
+        {{#each category.items as |item|}}
+            <li>
+            <p class="full-menu-item-name"><span>{{item.name}}</span>
+                <span class="full-menu-item-price">{{format-money (to-dollars item.price)}}</span>
+            </p>
+            <p class="full-menu-item-description">{{item.description}}</p>
+            <button {{action 'addToCart' item}}>Add to cart</button>
+            </li>
+        {{/each}}
+        </ul>
+    </div>
+{{/each}}
+
+

@@ -1,0 +1,14 @@
+<div class="singleitem">
+    <h2 class="singleitem-name">{{model.name}}
+        <span class="singleitem-price">{{format-money (to-dollars model.price)}}</span>
+    </h2>
+    <p class="singleitem-description">{{model.description}}</p>
+
+<div class="actions">
+  {{#link-to 'admin.menu-items.edit' model}}
+    Edit{{/link-to}}
+  <a href="#" {{action 'delete' model}}>
+    Delete
+  </a>
+</div>
+</div>

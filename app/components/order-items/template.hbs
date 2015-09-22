@@ -1,0 +1,11 @@
+
+<div class="order-box">
+    <h4>Shopping Cart</h4>
+    <p id="cart-item">Item<span>Price</span></p>
+    {{#each orders.ordersSubmitted as |item|}}
+    <p id="cart-item-name">{{item.name}}<span>{{format-money (to-dollars item.price)}}</span></p>
+    {{/each}}
+    <p id="total">Total:<span>{{format-money (to-dollars orders.price)}}</span></p>
+
+</div>
+

@@ -1,0 +1,138 @@
+@import "reset";
+@import "bourbon";
+@import "neat";
+@import 'border-box';
+
+$red: #ff0000;
+$gray: #898585;
+$font: Verdana, Arial, Helvetica, sans-serif;
+$fontcolor: #ffffff;
+
+body {
+    background: #d6d4d4;
+    font-family: $font;
+
+
+}
+.main {
+    @include outer-container(1080px);
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+        text-decoration: underline;
+}
+
+nav {
+    h1 {
+        font-size: 60px;
+        text-align: center;
+    }
+
+    ul {
+        height: 50px;
+        @include outer-container();
+    }
+    li {
+        display: inline-block;
+        padding: 15px 10px 0;
+        a:hover {
+            background: lighten($gray, 30%);
+            border-radius: 2px;
+            text-decoration: none;
+            padding: 5px;
+        }
+    }
+}
+.item-form, .updateform {
+    @include outer-container(900px);
+    padding-top: 30px;
+}
+.item-form label, input, textarea, {
+    @include span-columns(12);
+    padding: 5px 0;
+}
+button {
+
+
+}
+.menu-newitems li {
+    padding: 5px 0;
+    margin-left: 10px;
+}
+.singleitem {
+    text-align: center;
+    padding: 20px 0;
+    .singleitem-name {
+        font-size: 1.2em;
+    }
+    .singleitem-description {
+        font-size: 0.8em;
+        font-style: italic;
+        padding-top: 5px;
+    }
+}
+.actions {
+    padding-top: 10px;
+}
+.updateform label, input, textarea {
+    @include span-columns(12);
+    padding: 5px 0;
+}
+
+.full-menu {
+    @include span-columns(9);
+    background-color: #f49292;
+    padding: 10px;
+    h4 {
+        font-size: 1.3rem;
+        border-bottom: 1px solid #d6d4d4;
+        margin: 5px 0;
+        padding-bottom: 5px;
+    }
+    p {
+        padding: 5px 0;
+        .full-menu-item-price {
+            float: right;
+        }
+    }
+    .full-menu-item-description {
+        font-size: 0.8rem;
+        font-style: italic;
+    }
+
+}
+.order {
+    @include span-columns(3);
+    background-color: #f49292;
+    padding: 10px;
+    h4 {
+        font-size: 1.2rem;
+        border-bottom: 1px solid #d6d4d4;
+        margin: 5px 0;
+        padding-bottom: 5px;
+        text-align: center;
+    }
+    p span {
+        float: right;
+    }
+    #total {
+        border-top: 1px solid #d6d4d4;
+        padding-top: 10px;
+    }
+    #cart-item, #cart-item-name {
+        padding-bottom: 10px;
+    }
+    #cart-item-name {
+        font-size: 0.9rem;
+    }
+}
+
+header {
+    background-color: darken(#f49292, 10%);
+    margin-bottom: 50px;
+}
+
+

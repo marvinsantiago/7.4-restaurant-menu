@@ -1,0 +1,15 @@
+<form class="item-form" {{action 'save' on='submit'}}>
+<label for="menu-name">Name</label>
+  {{input type='text' value=name}}
+
+<label for="menu-category">Category</label>
+  {{input type='text' value=category}}
+
+<label for="menu-price">Price</label>
+  {{input type='text' value=price}}
+
+<label for="menu-description">Description</label>
+  {{textarea type='text' value=description}}
+
+    <button type='submit'>Save</button>
+</form>

@@ -1,3 +1,21 @@
-<h2 id="title">Welcome to Ember</h2>
+<div class="main">
+<header>
+     <h1 id="title">BANGKOK THAI CUISINE</h1>
+    <nav>
+        <ul>
+            <li>{{#link-to 'menus'}}Menu{{/link-to}}</li>
+            <li>{{#link-to 'admin'}}Employees Only{{/link-to}}</li>
 
-{{outlet}}
+        </ul>
+    </nav>
+
+
+</header>
+
+
+
+<div class="main">
+    {{outlet}}
+</div>
+
+</div>

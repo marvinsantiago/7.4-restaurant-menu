@@ -1,0 +1,676 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"i",
+				"itemview"
+			],
+			[
+				"ta",
+				"tagview"
+			],
+			[
+				"fro",
+				"formview"
+			],
+			[
+				"fil",
+				"filteredTags"
+			],
+			[
+				"ch",
+				"childView"
+			],
+			[
+				"json",
+				"jsonData"
+			],
+			[
+				"blog",
+				"blogList"
+			],
+			[
+				"App",
+				"AppTemplates"
+			],
+			[
+				"create",
+				"createNew"
+			],
+			[
+				"togg",
+				"toggleDone"
+			],
+			[
+				"Todo",
+				"Todo"
+			],
+			[
+				"ge",
+				"getHealth"
+			],
+			[
+				"hero",
+				"hero"
+			],
+			[
+				"game",
+				"game-screen"
+			],
+			[
+				"weapon",
+				"weaponButton"
+			],
+			[
+				"take",
+				"takeDamage"
+			],
+			[
+				"g",
+				"getAttackStrength"
+			],
+			[
+				"tem",
+				"templatesAndScripts"
+			],
+			[
+				"user",
+				"userHasLoaded"
+			],
+			[
+				"aj",
+				"ajaxOptions"
+			],
+			[
+				"repo",
+				"repositories"
+			],
+			[
+				"slid",
+				"slideDown"
+			],
+			[
+				"sub",
+				"submenu"
+			],
+			[
+				"su",
+				"subMenu"
+			],
+			[
+				"unlo",
+				"unlockSafe"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"Object",
+				"Object"
+			],
+			[
+				"first",
+				"first"
+			],
+			[
+				"heroes",
+				"heroesEl"
+			],
+			[
+				"quer",
+				"querySelector"
+			],
+			[
+				"temp",
+				"templateByQuery"
+			],
+			[
+				"bu",
+				"buttonEls"
+			],
+			[
+				"input",
+				"inputEl"
+			],
+			[
+				"querySelector",
+				"querySelectorAll"
+			],
+			[
+				"button",
+				"buttonEls"
+			],
+			[
+				"h2",
+				"h2El"
+			],
+			[
+				"border-bot",
+				"border-bottom-right-radius"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"con",
+				"contentEl"
+			],
+			[
+				"templ",
+				"templateString"
+			],
+			[
+				"b",
+				"bDenoms"
+			],
+			[
+				"a",
+				"aDenoms"
+			],
+			[
+				"sum",
+				"sum"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"s",
+				"sans-serif"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 213.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"show",
+				"SublimeLinter: Show Errors on Save"
+			],
+			[
+				"mode",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			]
+		],
+		"width": 532.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app"
+	],
+	"file_history":
+	[
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/components/order-items/template.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/styles/app.scss",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/styles/_fullmenu.scss",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/components/category-menu/template.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/services/order-build.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/components/category-menu/component.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/components/order-items/component.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/menus/route.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/menus/show/route.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/menus/template.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/components/order-form/template.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/components/order-form/component.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/templates/application.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/menus/show/template.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/router.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/components/menu-item/template.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/categories/template.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/categories/route.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/admin/menu-items/index/template.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/menus/index/template.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/admin/menu-items/show/template.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/admin/menu-items/create/route.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/admin/menu-items/show/route.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/models/item.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/admin/menu-items/edit/route.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/menus/index/route.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/admin/menu-item/index/template.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/admin/menu-item/edit/template.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/admin/menu-item/edit/route.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/admin/menu-item/create/template.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/components/menu-item/component.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/admin/menu-item/show/route.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/admin/menu-item/show/template.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/admin/menu-item/create/route.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/components/menu-form.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/admin/menu-items/index.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/admin/menu-item/index/route.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/admin/menu-items/create.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/admin",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/.ember-cli",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/templates/admin/menu-items/create.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/styles/border-box.scss",
+		"/Users/marvinsantiago/IronYard/week-8/lesson-2/app/contacts/pets/create/template.hbs",
+		"/Users/marvinsantiago/IronYard/week-8/lesson-2/app/components/pet-form/template.hbs",
+		"/Users/marvinsantiago/IronYard/week-8/lesson-2/app/router.js",
+		"/Users/marvinsantiago/IronYard/week-8/lesson-2/app/contacts/pets/create/route.js",
+		"/Users/marvinsantiago/IronYard/week-8/lesson-2/app/contacts/show/template.hbs",
+		"/Users/marvinsantiago/IronYard/week-8/lesson-2/app/models/contact.js",
+		"/Users/marvinsantiago/IronYard/week-8/lesson-2/app/models/pet.js",
+		"/Users/marvinsantiago/IronYard/week-8/lesson-2/app/contacts/template.hbs",
+		"/Users/marvinsantiago/IronYard/week-8/lesson-2/app/contacts/route.js",
+		"/Users/marvinsantiago/IronYard/week-8/lesson-2/app/contacts/index/template.hbs",
+		"/Users/marvinsantiago/IronYard/week-8/lesson-2/app/components/contact-form/component.js",
+		"/Users/marvinsantiago/IronYard/week-8/lesson-2/app/contacts/create/route.js",
+		"/Users/marvinsantiago/IronYard/week-8/lesson-2/app/contacts/edit/route.js",
+		"/Users/marvinsantiago/IronYard/week-8/lesson-2/app/components/contact-form/template.hbs",
+		"/Users/marvinsantiago/IronYard/week-8/lesson-2/app/contacts/edit/template.hbs",
+		"/Users/marvinsantiago/IronYard/week-8/lesson-2/app/contacts/create/template.hbs",
+		"/Users/marvinsantiago/IronYard/week-8/lesson-2/app/contacts/index/route.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/templates/admin/menu-items/index.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/templates/admin/menu-items/update.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/templates/admin/menu-items/show.hbs",
+		"/Users/marvinsantiago/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/marvinsantiago/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/templates/admin/menu-items.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/helpers/to-dollars.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/admin/menu-items/update.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/admin/index.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/templates/admin/index.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/admin/menu-items.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/routes/admin/menu-items/index.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/admin/menu-items/show.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/admin/menu-items/filtered.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/templates/components/menu-form.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/config/environment.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/models/menu-item.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/adapters/application.js",
+		"/Users/marvinsantiago/IronYard/week-8/lesson-2/config/environment.js",
+		"/Users/marvinsantiago/IronYard/week-8/lesson-2/.ember-cli",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/templates/menu/create.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/templates/menu.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/templates/menu/show.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/templates/menu/update.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/menu-item/update.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/menu-item/show.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/menu-item/filtered.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/menu-item/create.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/menu-item.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/components/admin-form.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/admin/show.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/templates/admin.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/serializers/application.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/models/admin.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/admin.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/admin/filtered.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/templates/admin/filtered.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/admin/update.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/cms/update.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/routes/admin/create.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/templates/admin/show.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/templates/components/admin-form.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/templates/admin/update.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/templates/admin/create.hbs",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/adapters/admin.js",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/package.json",
+		"/Users/marvinsantiago/IronYard/week-7/7.4-restaurant-menu/app/index.html",
+		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/router.js",
+		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/views/detailview.js",
+		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/views/sidebarview.js",
+		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/views/formview.js",
+		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/model/cms.js",
+		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/templates/sidebar.hbs",
+		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/public/index.html",
+		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/templates/form.hbs",
+		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/index.js",
+		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/collection/cms.js",
+		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/Brocfile.js",
+		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/templates/detail.hbs",
+		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/templates/item.hbs",
+		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/templates/tag.hbs",
+		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/view/tagview.js",
+		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/view/itemview.js",
+		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/view/formview.js",
+		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/view/item.js",
+		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/view/tag.js",
+		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/view/form.js",
+		"/Users/marvinsantiago/IronYard/week-7/lesson-4/.git/COMMIT_EDITMSG",
+		"/Users/marvinsantiago/IronYard/week-6/6.4-backbone-exercises/assets/js/collection/bm-collection.js"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 109.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"contact",
+			"contact.",
+			"contact",
+			"save",
+			"model",
+			"<input type=\"text\">",
+			"input",
+			"menu",
+			"- ",
+			"* ",
+			"this",
+			"new ",
+			".tag",
+			"- ",
+			"* ",
+			"person",
+			"app",
+			"parse",
+			"todoapp",
+			"model",
+			"- ",
+			"* ",
+			"todo.",
+			"game",
+			"- ",
+			"* ",
+			"    '",
+			"input",
+			"template",
+			"- ",
+			"* ",
+			"- ",
+			"* ",
+			"Style",
+			"</span>",
+			"<span>",
+			"<ol class=\"submenu\">\n                <li><span>Dropbox</span></li>\n                <li><span>Skydrive</span></li>\n                <li><span>FTP Server</span></li>\n                <li><span>Dropbox</span></li>\n                <li><span>Skydrive</span></li>\n            </ol>",
+			", function() {}",
+			"\"",
+			"> ",
+			"- ",
+			"* ",
+			"data",
+			"* ",
+			"currentTime",
+			"* ",
+			"afterWait",
+			"* ",
+			"@include span-columns(5);",
+			"id",
+			"color",
+			"</i>",
+			"+ ",
+			"- ",
+			"* ",
+			"event",
+			"timeline",
+			"* ",
+			"=\"tabletview\"",
+			"overflow",
+			"ul",
+			"em",
+			"> C",
+			" c",
+			" C",
+			" c",
+			" C",
+			"<li class=\"li-odd\"><img",
+			"<li class=\"li-odd\">",
+			"class=\"first-nav-item\"",
+			"alt",
+			"> C",
+			"> ",
+			"f\"> ",
+			"f\" ",
+			"> ",
+			".gif\" ",
+			"if\" ",
+			"f\" ",
+			"\" ",
+			"- ",
+			" ",
+			"d\">",
+			"\">",
+			"\"> ",
+			"> ",
+			"Contrary",
+			"<li",
+			"li",
+			"</",
+			"</li>",
+			"nav",
+			"first",
+			"* ",
+			"- ",
+			"+ ",
+			"* ",
+			"mate"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 39.0
+	},
+	"input":
+	{
+		"height": 55.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "7.4-restaurant-menu.sublime-project",
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"router",
+				"app/router.js"
+			],
+			[
+				"editroute",
+				"app/contacts/edit/route.js"
+			],
+			[
+				"appcontacts",
+				"app/components/contact-form/component.js"
+			],
+			[
+				"contactsedi",
+				"app/contacts/edit/template.hbs"
+			],
+			[
+				"createroute",
+				"app/contacts/create/route.js"
+			],
+			[
+				"createtempl",
+				"app/contacts/create/template.hbs"
+			],
+			[
+				"appcontact",
+				"app/contacts/create/template.hbs"
+			],
+			[
+				"conta",
+				"app/models/contact.js"
+			],
+			[
+				".ember",
+				".ember-cli"
+			],
+			[
+				"approuter",
+				"app/router.js"
+			],
+			[
+				"patsc",
+				"bower_components/fontawesome/scss/_path.scss"
+			],
+			[
+				"varscs",
+				"bower_components/fontawesome/scss/_variables.scss"
+			],
+			[
+				"fontawvar",
+				"bower_components/fontawesome/less/variables.less"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 203.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
